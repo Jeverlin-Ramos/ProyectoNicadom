@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8678fc55-485b-47a7-a564-228ca7e8f223">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="ID" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+
+     facturacion.`cod_facturacion` AS facturacion_cod_facturacion,
+     facturacion.`cod_cliente` AS facturacion_cod_cliente,
+     facturacion.`cedcli` AS facturacion_cedcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`rnc` AS facturacion_rnc,
+     facturacion.`nomcli` AS facturacion_nomcli,
+     facturacion.`apcli` AS facturacion_apcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`hora` AS facturacion_hora,
+     facturacion.`montotal` AS facturacion_montotal,
+     facturacion.`facturadopor` AS facturacion_facturadopor,
+     detalle_facturacion.`cod_credito` AS detalle_facturacion_cod_credito,
+     detalle_facturacion.`id_detalle` AS detalle_facturacion_id_detalle,
+     detalle_facturacion.`cod_producto` AS detalle_facturacion_cod_producto,
+     detalle_facturacion.`total_producto` AS detalle_facturacion_total_producto,
+     detalle_facturacion.`nombreprod` AS detalle_facturacion_nombreprod,
+     detalle_facturacion.`precio` AS detalle_facturacion_precio
+FROM
+     `facturacion` facturacion,
+     `detalle_facturacion` detalle_facturacion
+where facturacion.cod_facturacion = $P{ID} AND detalle_facturacion.id_detalle = $P{ID}]]>
+	</queryString>
+	<field name="facturacion_cod_facturacion" class="java.lang.Integer"/>
+	<field name="facturacion_cod_cliente" class="java.lang.Integer"/>
+	<field name="facturacion_cedcli" class="java.lang.String"/>
+	<field name="facturacion_fecha" class="java.lang.String"/>
+	<field name="facturacion_rnc" class="java.lang.String"/>
+	<field name="facturacion_nomcli" class="java.lang.String"/>
+	<field name="facturacion_apcli" class="java.lang.String"/>
+	<field name="facturacion_hora" class="java.lang.String"/>
+	<field name="facturacion_montotal" class="java.lang.String"/>
+	<field name="facturacion_facturadopor" class="java.lang.String"/>
+	<field name="detalle_facturacion_cod_credito" class="java.lang.Integer"/>
+	<field name="detalle_facturacion_id_detalle" class="java.lang.Integer"/>
+	<field name="detalle_facturacion_cod_producto" class="java.lang.Integer"/>
+	<field name="detalle_facturacion_total_producto" class="java.lang.Integer"/>
+	<field name="detalle_facturacion_nombreprod" class="java.lang.String"/>
+	<field name="detalle_facturacion_precio" class="java.lang.Integer"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="368" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="322" width="555" height="46" uuid="98976a36-dc8f-4585-a83f-451dec904583"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="20" width="212" height="67" forecolor="#0A497B" uuid="e7052407-423c-4cea-a7f9-f0e0481eb2cc"/>
+				<textElement>
+					<font fontName="Corbel" size="36"/>
+				</textElement>
+				<text><![CDATA[FACTURA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="126" width="138" height="39" forecolor="#0A497B" uuid="a8f8de83-51de-4b85-908a-27df43af48db"/>
+				<textElement>
+					<font fontName="Corbel" size="24"/>
+				</textElement>
+				<text><![CDATA[Facturar  a: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="69" y="181" width="93" height="20" uuid="a75a80ef-809a-4665-ba3f-d4334c988e14"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_nomcli}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="119" y="181" width="100" height="20" uuid="945cf7bc-7649-4792-b6a7-0327673dff9a"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_apcli}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="62" y="212" width="100" height="20" uuid="29f8b1bf-a22f-45db-af74-76430a7d5351"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_cedcli}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="12" y="181" width="57" height="20" uuid="1d5a75e9-6894-469b-a2cf-6b9b2304033f"/>
+				<textElement>
+					<font fontName="Corbel" size="14"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="213" width="47" height="20" uuid="4da4737c-5cc4-4461-a8e8-108bfeea35ef"/>
+				<textElement>
+					<font fontName="Corbel" size="14"/>
+				</textElement>
+				<text><![CDATA[Cédula:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="12" y="244" width="47" height="20" uuid="50d4c9af-7545-4ac1-935f-846ec42884e5"/>
+				<textElement>
+					<font fontName="Corbel" size="14"/>
+				</textElement>
+				<text><![CDATA[RNC: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="59" y="246" width="100" height="20" uuid="88446996-61d0-4c24-b06b-af9f76684728"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_rnc}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="385" y="201" width="100" height="20" uuid="390ea2c9-486c-4619-98c6-5cb930e29e86"/>
+				<textElement>
+					<font fontName="Corbel" size="14"/>
+				</textElement>
+				<text><![CDATA[Nro. de factura:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="485" y="201" width="62" height="20" uuid="48d150b3-0db0-484b-977a-5f7adb30c9b7"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_cod_facturacion}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="385" y="222" width="52" height="20" uuid="811f9b9d-be6a-40ec-826f-a449673eb6d4"/>
+				<textElement>
+					<font fontName="Corbel" size="14"/>
+				</textElement>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="437" y="222" width="89" height="20" uuid="85833d91-520e-4c2e-8291-7bc39aded4c6"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_fecha}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="385" y="241" width="52" height="20" uuid="ea0cd68b-46e5-4522-bf16-b21cf69f1131"/>
+				<textElement>
+					<font fontName="Corbel" size="14"/>
+				</textElement>
+				<text><![CDATA[Hora:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="437" y="242" width="100" height="20" uuid="7a9bfb98-f375-4a88-ac4f-f67ab1196e56"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_hora}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="333" width="57" height="34" uuid="c8f4b76b-29e9-4bb0-8b3d-6c405f0a1ace"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[COD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="72" y="334" width="100" height="34" uuid="7cc2bf72-3cb4-46f2-aa37-913b7b923e8a"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[NOMBRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="187" y="334" width="100" height="30" uuid="04cc899a-ab50-4d3c-b82b-5cfc218fa31a"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[CANT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="297" y="333" width="152" height="24" uuid="34aa7d15-3c6b-4ca8-bffa-80252cb24373"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[PRECIO UNITARIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="385" y="262" width="138" height="35" uuid="00287a7e-db40-479a-9fe9-eec4eea3021e"/>
+				<textElement>
+					<font fontName="Corbel" size="14"/>
+				</textElement>
+				<text><![CDATA[Facturado por:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="476" y="264" width="100" height="20" uuid="83b94972-33d5-4829-8302-be84a42d506e"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_facturadopor}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="428" y="8" width="88" height="89" uuid="e504700d-5648-4309-a58a-a45efdf23af8"/>
+				<imageExpression><![CDATA["C:\\Users\\Gemelas\\Documents\\NetBeansProjects\\ParteGrafica\\src\\imagenes\\logo nicadom.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="466" y="331" width="71" height="24" uuid="1b74e177-3482-4126-95ce-761866376712"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[TOTAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="404" y="106" width="122" height="20" uuid="62575566-b670-4b21-aac2-231905612efb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Corbel" size="12"/>
+				</textElement>
+				<text><![CDATA[Av. 27 de Febrero ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="356" y="125" width="228" height="20" uuid="c368617b-b6e2-469e-a4d6-b5a1fe4026f2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Corbel" size="12"/>
+				</textElement>
+				<text><![CDATA[Santiago De Los Caballeros 51000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="356" y="144" width="228" height="20" uuid="b9613738-d17b-4ab1-b07a-f9cba592af2d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Corbel" size="12"/>
+				</textElement>
+				<text><![CDATA[Teléfono: (809) 583-0777]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="39" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="-4" width="555" height="43" uuid="2312c79b-3223-4e88-ba09-c0dcf1e02bae"/>
+			</rectangle>
+			<textField>
+				<reportElement x="10" y="14" width="47" height="20" uuid="37a78be5-1554-41d9-845e-7fdbfb709b3c"/>
+				<textFieldExpression><![CDATA[$F{detalle_facturacion_cod_producto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="72" y="12" width="100" height="20" uuid="cafbd341-f3ac-4204-828c-7f9cec814fc4"/>
+				<textFieldExpression><![CDATA[$F{detalle_facturacion_nombreprod}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="187" y="11" width="100" height="20" uuid="fb606c31-579a-4b18-85a3-f561367e496d"/>
+				<textFieldExpression><![CDATA[$F{detalle_facturacion_total_producto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="303" y="10" width="100" height="20" uuid="f7bec1bc-8091-45f3-aa8c-f4fa2ab00433"/>
+				<textFieldExpression><![CDATA[$F{detalle_facturacion_precio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="477" y="10" width="39" height="20" uuid="b0234a46-2637-42e5-9c4d-3f75d4a63165"/>
+				<textFieldExpression><![CDATA[$F{detalle_facturacion_total_producto} * $F{detalle_facturacion_precio}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="93" splitType="Stretch">
+			<staticText>
+				<reportElement x="309" y="39" width="140" height="27" uuid="e1fa132b-ebf6-44f8-aac4-6de34ed5589d"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[MONTO TOTAL:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="443" y="39" width="59" height="24" uuid="211146d1-a124-4c32-a9dc-d84011c7f28d"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{facturacion_montotal}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

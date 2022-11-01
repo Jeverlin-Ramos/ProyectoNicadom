@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3fce9d0c-3ef8-4230-a135-1d335c918b6e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<queryString language="SQL">
+		<![CDATA[select * from nicadom_miniproyecto.facturacion]]>
+	</queryString>
+	<field name="cod_facturacion" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cod_cliente" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="rnc" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ncf" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="itbis" class="java.lang.Float">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fecha" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="hora" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="montotal" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="facturadopor" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="147" splitType="Stretch">
+			<staticText>
+				<reportElement style="Title" x="362" y="2" width="183" height="67" forecolor="#0A497B" uuid="39dc8976-141b-4eaf-a8c1-1d6357a6b2dc"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Corbel" size="40" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Factura]]></text>
+			</staticText>
+			<image>
+				<reportElement x="19" y="11" width="88" height="89" uuid="b2bf5f6c-f0f5-4796-b0e5-0e8ded57e12b"/>
+				<imageExpression><![CDATA["C:\\Users\\Gemelas\\Documents\\NetBeansProjects\\ParteGrafica\\src\\Reporte\\logo nicadom.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="7" y="105" width="282" height="30" forecolor="#0A497B" uuid="0851006c-ad48-457b-8a53-7ac619ea71cd"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[ Av. 27 de Febrero Santiago De Los Caballeros 51000]]></text>
+			</staticText>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="146" width="555" height="1" uuid="5a5ee9bf-70c1-4919-b9cd-1a17886fdb72"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="87" splitType="Stretch">
+			<staticText>
+				<reportElement style="Column header" x="372" y="15" width="107" height="19" uuid="6b2f7164-9d8a-43a9-ac4a-82dcb4323ba7"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Código factura]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="372" y="35" width="61" height="15" uuid="60aed1ae-91f8-425b-ab1f-e761196edeb1"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Fecha]]></text>
+			</staticText>
+			<textField>
+				<reportElement style="Detail" x="479" y="16" width="61" height="15" uuid="51382bb7-d22f-4641-91b8-5533c47cedf1"/>
+				<textFieldExpression><![CDATA[$F{cod_facturacion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="479" y="35" width="61" height="15" uuid="0677c95c-ee47-4aae-8b3d-8c7c180dd3aa"/>
+				<textFieldExpression><![CDATA[$F{fecha}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Column header" x="372" y="54" width="61" height="15" uuid="a9868b58-a2f5-4b21-9380-5f009138b68c"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Hora]]></text>
+			</staticText>
+			<textField>
+				<reportElement style="Detail" x="479" y="54" width="61" height="15" uuid="b052c5ef-bce9-4615-8b21-2efb9cd913a8"/>
+				<textFieldExpression><![CDATA[$F{hora}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Column header" x="7" y="15" width="88" height="34" uuid="2d1cc6f2-0156-4e35-a4f7-2af2ee4bbff4"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Código cliente]]></text>
+			</staticText>
+			<textField>
+				<reportElement style="Detail" x="7" y="54" width="61" height="15" uuid="76548aeb-38d6-42b8-a062-b62f876f45aa"/>
+				<textFieldExpression><![CDATA[$F{cod_cliente}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="348" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="1" width="555" height="1" uuid="5f4b091d-278c-450a-a558-6a8193c890db"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement style="Detail" x="316" y="31" width="61" height="15" uuid="a950a617-08da-46b5-aebd-b42e11248046"/>
+				<textFieldExpression><![CDATA[$F{rnc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="401" y="31" width="61" height="15" uuid="e84c23b8-9703-4ab6-bafc-25ba45cc22f9"/>
+				<textFieldExpression><![CDATA[$F{ncf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="482" y="31" width="61" height="15" uuid="95a225a2-f830-4aa4-9048-75e6563382b3"/>
+				<textFieldExpression><![CDATA[$F{itbis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="492" y="107" width="61" height="15" uuid="a8e24467-f1d1-409d-aa1f-fbfb635a275b"/>
+				<textFieldExpression><![CDATA[$F{montotal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="433" y="313" width="61" height="15" uuid="453a2595-a072-495c-aa87-85c6148ba6e9"/>
+				<textFieldExpression><![CDATA[$F{facturadopor}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Column header" x="316" y="16" width="61" height="15" uuid="17992981-a083-4d12-969e-90dfdc1cf1e3"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[RNC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="427" y="279" width="116" height="34" uuid="ab6e5792-5e59-46ff-bc03-dc224aef815d"/>
+				<textElement>
+					<font size="14" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Facturado por]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="377" y="107" width="105" height="15" uuid="7704117f-f44c-468b-9ca5-80333861392b"/>
+				<text><![CDATA[Monto total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="401" y="16" width="61" height="15" uuid="6037d36d-bd9d-44aa-a787-7c1b1023a175"/>
+				<text><![CDATA[NCF]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="482" y="15" width="61" height="15" uuid="44942808-04af-4952-8ff4-9be62c470e07"/>
+				<text><![CDATA[ITBIS]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="22" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1" uuid="40c13252-037f-4fd7-bf5f-07146f617cfe"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement style="Column header" x="433" y="0" width="80" height="20" uuid="4de37c3b-4b3a-4ad5-9d6b-21362e1992bc"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement style="Column header" x="513" y="0" width="40" height="20" uuid="a09575e2-1a6e-4b7b-a857-3c12815d5d92"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement style="Column header" x="0" y="0" width="197" height="20" uuid="9900b5ab-a86a-4674-87db-8c55c5fc49d6"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,491 @@
+2022-06-22 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d for (null, {java.lang.Integer, null,null,null,null})
+2022-06-22 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@259e3fde
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@259e3fde for (null, null)
+2022-06-22 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d for object net.sf.jasperreports.engine.fill.JRTemplateText@cdac7b0
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d for (null, {java.lang.Integer, null,null,null,null})
+2022-06-22 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d for object net.sf.jasperreports.engine.fill.JRTemplateText@8d81e11
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d for (null, {java.lang.Integer, null,null,null,null})
+2022-06-22 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d for object net.sf.jasperreports.engine.fill.JRTemplateText@58449541
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@7d7e362d for (null, {java.lang.Integer, null,null,null,null})
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 427
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:1052) - Fill 1: summary at 466
+2022-06-22 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@b50bc74
+2022-06-22 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@b50bc74 for object net.sf.jasperreports.engine.fill.JRTemplateText@3fbf935e
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@b50bc74 for (null, null)
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:973) - Fill 1: ended
+2022-06-22 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1188) - Fill 1: closing query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (ExtensionsEnvironment.java:78) - Instantiating extensions registry class net.sf.jasperreports.extensions.DefaultExtensionsRegistry
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:130) - Loading registries for cache key sun.misc.Launcher$AppClassLoader@12a3a380
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRLoader.java:723) - Found resource jasperreports_extension.properties at jar:file:/C:/Users/Gemelas/Desktop/Libs/jasperreports-5.6.1.jar!/jasperreports_extension.properties in classloader sun.misc.Launcher$AppClassLoader@12a3a380
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:158) - Loading JasperReports extension properties resource jar:file:/C:/Users/Gemelas/Desktop/Libs/jasperreports-5.6.1.jar!/jasperreports_extension.properties
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.parameter.contributor
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for header.toolbar.parameter.contributor using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions for property net.sf.jasperreports.extension.registry.factory.date.range.clause.functions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for date.range.clause.functions using factory class net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.repository
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for repository using factory class net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.content.type.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for content.type.mapping using factory class net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.fonts.SimpleFontExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.simple.font.families
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for simple.font.families using factory class net.sf.jasperreports.engine.fonts.SimpleFontExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.data.adapter.services
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for data.adapter.services using factory class net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.WebResourceHandlersExtensionRegistryFactory for property net.sf.jasperreports.extension.registry.factory.jive.web.resource.handlers
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for jive.web.resource.handlers using factory class net.sf.jasperreports.web.util.WebResourceHandlersExtensionRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.castor.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for castor.mapping using factory class net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.export.MatcherExportFilterMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.matcher.exporter.filter.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for matcher.exporter.filter.mapping using factory class net.sf.jasperreports.engine.export.MatcherExportFilterMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.governor
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for governor using factory class net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.RequirejsModuleMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.requirejs.module.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for requirejs.module.mapping using factory class net.sf.jasperreports.web.util.RequirejsModuleMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions for property net.sf.jasperreports.extension.registry.factory.sql.clause.functions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for sql.clause.functions using factory class net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.property.style.provider
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for property.style.provider using factory class net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.jackson.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for jackson.mapping using factory class net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.default
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for default using factory class net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.components
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for components using factory class net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.style.provider
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for header.toolbar.style.provider using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:356) - Fill 1: created for null
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 225062684
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: TITLE} for band 1810334611
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 1589445521
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: SUMMARY} for band 121776531
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:136) - Filler 1 - pageHeight: 842, columnFooterOffsetY: 822, lastPageColumnFooterOffsetY: 822
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:911) - Fill 1: filling report
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1107) - Fill 1: Creating sql query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:254) - SQL query string: SELECT
+
+     facturacion.`cod_facturacion` AS facturacion_cod_facturacion,
+     facturacion.`cod_cliente` AS facturacion_cod_cliente,
+     facturacion.`cedcli` AS facturacion_cedcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`rnc` AS facturacion_rnc,
+     facturacion.`nomcli` AS facturacion_nomcli,
+     facturacion.`apcli` AS facturacion_apcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`hora` AS facturacion_hora,
+     facturacion.`montotal` AS facturacion_montotal,
+     facturacion.`facturadopor` AS facturacion_facturadopor,
+     detalle_facturacion.`cod_credito` AS detalle_facturacion_cod_credito,
+     detalle_facturacion.`id_detalle` AS detalle_facturacion_id_detalle,
+     detalle_facturacion.`cod_producto` AS detalle_facturacion_cod_producto,
+     detalle_facturacion.`total_producto` AS detalle_facturacion_total_producto,
+     detalle_facturacion.`nombreprod` AS detalle_facturacion_nombreprod,
+     detalle_facturacion.`precio` AS detalle_facturacion_precio
+FROM
+     `facturacion` facturacion,
+     `detalle_facturacion` detalle_facturacion
+where facturacion.cod_facturacion = ? AND detalle_facturacion.id_detalle = ?
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #1 (ID of type java.lang.Integer): 73
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #2 (ID of type java.lang.Integer): 73
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:1857) - Fill 1: adding page 1
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:340) - Fill 1: title at 20
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateImage@3c63aff5
+2022-06-24 DEBUG [AWT-EventQueue-0] (SimpleTextLineWrapper.java:303) - creating element font infos cache of size 2000
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@5dec0a6d
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@397726d3
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@17ed86c3
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for object net.sf.jasperreports.engine.fill.JRTemplateText@6f1b711f
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for object net.sf.jasperreports.engine.fill.JRTemplateText@2306b487
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3c280ead
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3c280ead for object net.sf.jasperreports.engine.fill.JRTemplateText@30f47223
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3c280ead for object net.sf.jasperreports.engine.fill.JRTemplateText@32bf828a
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for object net.sf.jasperreports.engine.fill.JRTemplateText@6a279eb2
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3c280ead for object net.sf.jasperreports.engine.fill.JRTemplateText@6ab16897
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5c196b36
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@5c196b36 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3c280ead for object net.sf.jasperreports.engine.fill.JRTemplateText@29556e6a
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for object net.sf.jasperreports.engine.fill.JRTemplateText@1043e8be
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3c280ead for object net.sf.jasperreports.engine.fill.JRTemplateText@55af3b1c
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for object net.sf.jasperreports.engine.fill.JRTemplateText@9311486
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3f729afe
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3f729afe for object net.sf.jasperreports.engine.fill.JRTemplateText@23300a6e
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3f729afe for object net.sf.jasperreports.engine.fill.JRTemplateText@64dc3f31
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3f729afe for object net.sf.jasperreports.engine.fill.JRTemplateText@489018da
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3c280ead for object net.sf.jasperreports.engine.fill.JRTemplateText@1570881a
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for object net.sf.jasperreports.engine.fill.JRTemplateText@363092eb
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2d530d01 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3f729afe for object net.sf.jasperreports.engine.fill.JRTemplateText@39ac163a
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@ccab97a
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@ccab97a for object net.sf.jasperreports.engine.fill.JRTemplateText@83a71fe
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@ccab97a for object net.sf.jasperreports.engine.fill.JRTemplateText@738e79eb
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 388
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@98841e4
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@6f7583dc
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@6f7583dc for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29 for object net.sf.jasperreports.engine.fill.JRTemplateText@1001da70
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29 for object net.sf.jasperreports.engine.fill.JRTemplateText@5bd3e0f2
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29 for object net.sf.jasperreports.engine.fill.JRTemplateText@3351651f
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@2a4f2c29 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 427
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:1052) - Fill 1: summary at 466
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@771267a0
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@771267a0 for object net.sf.jasperreports.engine.fill.JRTemplateText@57173f87
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@771267a0 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:973) - Fill 1: ended
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1188) - Fill 1: closing query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (ExtensionsEnvironment.java:78) - Instantiating extensions registry class net.sf.jasperreports.extensions.DefaultExtensionsRegistry
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:130) - Loading registries for cache key sun.misc.Launcher$AppClassLoader@12a3a380
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRLoader.java:723) - Found resource jasperreports_extension.properties at jar:file:/C:/Users/Gemelas/Desktop/Libs/jasperreports-5.6.1.jar!/jasperreports_extension.properties in classloader sun.misc.Launcher$AppClassLoader@12a3a380
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:158) - Loading JasperReports extension properties resource jar:file:/C:/Users/Gemelas/Desktop/Libs/jasperreports-5.6.1.jar!/jasperreports_extension.properties
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.parameter.contributor
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for header.toolbar.parameter.contributor using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions for property net.sf.jasperreports.extension.registry.factory.date.range.clause.functions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for date.range.clause.functions using factory class net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.repository
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for repository using factory class net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.content.type.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for content.type.mapping using factory class net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.fonts.SimpleFontExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.simple.font.families
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for simple.font.families using factory class net.sf.jasperreports.engine.fonts.SimpleFontExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.data.adapter.services
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for data.adapter.services using factory class net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.WebResourceHandlersExtensionRegistryFactory for property net.sf.jasperreports.extension.registry.factory.jive.web.resource.handlers
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for jive.web.resource.handlers using factory class net.sf.jasperreports.web.util.WebResourceHandlersExtensionRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.castor.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for castor.mapping using factory class net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.export.MatcherExportFilterMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.matcher.exporter.filter.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for matcher.exporter.filter.mapping using factory class net.sf.jasperreports.engine.export.MatcherExportFilterMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.governor
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for governor using factory class net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.RequirejsModuleMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.requirejs.module.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for requirejs.module.mapping using factory class net.sf.jasperreports.web.util.RequirejsModuleMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions for property net.sf.jasperreports.extension.registry.factory.sql.clause.functions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for sql.clause.functions using factory class net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.property.style.provider
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for property.style.provider using factory class net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.jackson.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for jackson.mapping using factory class net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.default
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for default using factory class net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.components
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for components using factory class net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.style.provider
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for header.toolbar.style.provider using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:356) - Fill 1: created for null
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 1324803155
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: TITLE} for band 2071709606
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 751855511
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: SUMMARY} for band 1370322676
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:136) - Filler 1 - pageHeight: 842, columnFooterOffsetY: 822, lastPageColumnFooterOffsetY: 822
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:911) - Fill 1: filling report
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1107) - Fill 1: Creating sql query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:254) - SQL query string: SELECT
+
+     facturacion.`cod_facturacion` AS facturacion_cod_facturacion,
+     facturacion.`cod_cliente` AS facturacion_cod_cliente,
+     facturacion.`cedcli` AS facturacion_cedcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`rnc` AS facturacion_rnc,
+     facturacion.`nomcli` AS facturacion_nomcli,
+     facturacion.`apcli` AS facturacion_apcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`hora` AS facturacion_hora,
+     facturacion.`montotal` AS facturacion_montotal,
+     facturacion.`facturadopor` AS facturacion_facturadopor,
+     detalle_facturacion.`cod_credito` AS detalle_facturacion_cod_credito,
+     detalle_facturacion.`id_detalle` AS detalle_facturacion_id_detalle,
+     detalle_facturacion.`cod_producto` AS detalle_facturacion_cod_producto,
+     detalle_facturacion.`total_producto` AS detalle_facturacion_total_producto,
+     detalle_facturacion.`nombreprod` AS detalle_facturacion_nombreprod,
+     detalle_facturacion.`precio` AS detalle_facturacion_precio
+FROM
+     `facturacion` facturacion,
+     `detalle_facturacion` detalle_facturacion
+where facturacion.cod_facturacion = ? AND detalle_facturacion.id_detalle = ?
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #1 (ID of type java.lang.Integer): 74
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #2 (ID of type java.lang.Integer): 74
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:1857) - Fill 1: adding page 1
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:340) - Fill 1: title at 20
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateImage@67bc5700
+2022-06-24 DEBUG [AWT-EventQueue-0] (SimpleTextLineWrapper.java:303) - creating element font infos cache of size 2000
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@58f84bb
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@58127914
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3c71e6e4
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for object net.sf.jasperreports.engine.fill.JRTemplateText@7120d4fb
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for object net.sf.jasperreports.engine.fill.JRTemplateText@4996675e
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@73e94b71
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73e94b71 for object net.sf.jasperreports.engine.fill.JRTemplateText@7c9854
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73e94b71 for object net.sf.jasperreports.engine.fill.JRTemplateText@5c4f9a0c
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for object net.sf.jasperreports.engine.fill.JRTemplateText@4a2e1da4
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73e94b71 for object net.sf.jasperreports.engine.fill.JRTemplateText@2221f4e9
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@11bcdfb0
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@11bcdfb0 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73e94b71 for object net.sf.jasperreports.engine.fill.JRTemplateText@36c16b52
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for object net.sf.jasperreports.engine.fill.JRTemplateText@5c68faf0
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73e94b71 for object net.sf.jasperreports.engine.fill.JRTemplateText@728988d1
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for object net.sf.jasperreports.engine.fill.JRTemplateText@162ce805
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5af23264
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5af23264 for object net.sf.jasperreports.engine.fill.JRTemplateText@66748a3c
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5af23264 for object net.sf.jasperreports.engine.fill.JRTemplateText@509dff00
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5af23264 for object net.sf.jasperreports.engine.fill.JRTemplateText@456d9726
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@73e94b71 for object net.sf.jasperreports.engine.fill.JRTemplateText@5d5fd92b
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for object net.sf.jasperreports.engine.fill.JRTemplateText@253d3ed8
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@3b138b7d for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5af23264 for object net.sf.jasperreports.engine.fill.JRTemplateText@4091cd5d
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@f21563
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@f21563 for object net.sf.jasperreports.engine.fill.JRTemplateText@7263ac43
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@f21563 for object net.sf.jasperreports.engine.fill.JRTemplateText@23a295ae
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 388
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@3befd8a2
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@65b1019a
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@65b1019a for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116 for object net.sf.jasperreports.engine.fill.JRTemplateText@6619f58
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116 for object net.sf.jasperreports.engine.fill.JRTemplateText@318ea845
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116 for object net.sf.jasperreports.engine.fill.JRTemplateText@59dcacd0
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@5f40d116 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 427
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:1052) - Fill 1: summary at 466
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@1625c1e9
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@1625c1e9 for object net.sf.jasperreports.engine.fill.JRTemplateText@3ed64f6d
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@1625c1e9 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:973) - Fill 1: ended
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1188) - Fill 1: closing query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (ExtensionsEnvironment.java:78) - Instantiating extensions registry class net.sf.jasperreports.extensions.DefaultExtensionsRegistry
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:130) - Loading registries for cache key sun.misc.Launcher$AppClassLoader@12a3a380
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRLoader.java:723) - Found resource jasperreports_extension.properties at jar:file:/C:/Users/Gemelas/Desktop/Libs/jasperreports-5.6.1.jar!/jasperreports_extension.properties in classloader sun.misc.Launcher$AppClassLoader@12a3a380
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:158) - Loading JasperReports extension properties resource jar:file:/C:/Users/Gemelas/Desktop/Libs/jasperreports-5.6.1.jar!/jasperreports_extension.properties
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.parameter.contributor
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for header.toolbar.parameter.contributor using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarParameterContributorExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions for property net.sf.jasperreports.extension.registry.factory.date.range.clause.functions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for date.range.clause.functions using factory class net.sf.jasperreports.types.date.DateRangeQueryClauseExtensions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.repository
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for repository using factory class net.sf.jasperreports.repo.DefaultRepositoryExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.content.type.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for content.type.mapping using factory class net.sf.jasperreports.web.util.ContentTypeMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.fonts.SimpleFontExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.simple.font.families
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for simple.font.families using factory class net.sf.jasperreports.engine.fonts.SimpleFontExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.data.adapter.services
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for data.adapter.services using factory class net.sf.jasperreports.data.DefaultDataAdapterServiceExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.WebResourceHandlersExtensionRegistryFactory for property net.sf.jasperreports.extension.registry.factory.jive.web.resource.handlers
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for jive.web.resource.handlers using factory class net.sf.jasperreports.web.util.WebResourceHandlersExtensionRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.castor.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for castor.mapping using factory class net.sf.jasperreports.util.CastorMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.export.MatcherExportFilterMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.matcher.exporter.filter.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for matcher.exporter.filter.mapping using factory class net.sf.jasperreports.engine.export.MatcherExportFilterMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.governor
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for governor using factory class net.sf.jasperreports.governors.GovernorExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.RequirejsModuleMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.requirejs.module.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for requirejs.module.mapping using factory class net.sf.jasperreports.web.util.RequirejsModuleMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions for property net.sf.jasperreports.extension.registry.factory.sql.clause.functions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for sql.clause.functions using factory class net.sf.jasperreports.engine.query.SQLQueryClauseFunctionsExtensions
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.property.style.provider
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for property.style.provider using factory class net.sf.jasperreports.engine.style.PropertyStyleProviderExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.jackson.mapping
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for jackson.mapping using factory class net.sf.jasperreports.web.util.JacksonMappingExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.default
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for default using factory class net.sf.jasperreports.extensions.DefaultExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory for property net.sf.jasperreports.extension.registry.factory.components
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for components using factory class net.sf.jasperreports.components.ComponentsExtensionsRegistryFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:208) - Instantiating registry of type net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory for property net.sf.jasperreports.extension.registry.factory.header.toolbar.style.provider
+2022-06-24 DEBUG [AWT-EventQueue-0] (DefaultExtensionsRegistry.java:233) - Instantiating extensions registry for header.toolbar.style.provider using factory class net.sf.jasperreports.components.headertoolbar.HeaderToolbarConditionalStyleProviderExtensionFactory
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:356) - Fill 1: created for null
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 1482029563
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: TITLE} for band 285609490
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 37849386
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: SUMMARY} for band 1555864949
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:136) - Filler 1 - pageHeight: 842, columnFooterOffsetY: 822, lastPageColumnFooterOffsetY: 822
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:911) - Fill 1: filling report
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1107) - Fill 1: Creating sql query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:254) - SQL query string: SELECT
+
+     facturacion.`cod_facturacion` AS facturacion_cod_facturacion,
+     facturacion.`cod_cliente` AS facturacion_cod_cliente,
+     facturacion.`cedcli` AS facturacion_cedcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`rnc` AS facturacion_rnc,
+     facturacion.`nomcli` AS facturacion_nomcli,
+     facturacion.`apcli` AS facturacion_apcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`hora` AS facturacion_hora,
+     facturacion.`montotal` AS facturacion_montotal,
+     facturacion.`facturadopor` AS facturacion_facturadopor,
+     detalle_facturacion.`cod_credito` AS detalle_facturacion_cod_credito,
+     detalle_facturacion.`id_detalle` AS detalle_facturacion_id_detalle,
+     detalle_facturacion.`cod_producto` AS detalle_facturacion_cod_producto,
+     detalle_facturacion.`total_producto` AS detalle_facturacion_total_producto,
+     detalle_facturacion.`nombreprod` AS detalle_facturacion_nombreprod,
+     detalle_facturacion.`precio` AS detalle_facturacion_precio
+FROM
+     `facturacion` facturacion,
+     `detalle_facturacion` detalle_facturacion
+where facturacion.cod_facturacion = ? AND detalle_facturacion.id_detalle = ?
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #1 (ID of type java.lang.Integer): 75
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #2 (ID of type java.lang.Integer): 75
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:1857) - Fill 1: adding page 1
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:340) - Fill 1: title at 20
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateImage@7124c77f
+2022-06-24 DEBUG [AWT-EventQueue-0] (SimpleTextLineWrapper.java:303) - creating element font infos cache of size 2000
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@3d867cfa
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@6d4954be
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5d870227
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@599d256b
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for object net.sf.jasperreports.engine.fill.JRTemplateText@6aadd98
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for object net.sf.jasperreports.engine.fill.JRTemplateText@4ebc3b97
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@5b44b7d5
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5b44b7d5 for object net.sf.jasperreports.engine.fill.JRTemplateText@3922e4bc
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5b44b7d5 for object net.sf.jasperreports.engine.fill.JRTemplateText@1e49aedc
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for object net.sf.jasperreports.engine.fill.JRTemplateText@1e38d901
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5b44b7d5 for object net.sf.jasperreports.engine.fill.JRTemplateText@79e10b26
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@921c1a5
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@921c1a5 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5b44b7d5 for object net.sf.jasperreports.engine.fill.JRTemplateText@84be875
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for object net.sf.jasperreports.engine.fill.JRTemplateText@75a81835
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5b44b7d5 for object net.sf.jasperreports.engine.fill.JRTemplateText@6bcdfdf6
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for object net.sf.jasperreports.engine.fill.JRTemplateText@47985e
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@2038bf04
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2038bf04 for object net.sf.jasperreports.engine.fill.JRTemplateText@6867e74d
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2038bf04 for object net.sf.jasperreports.engine.fill.JRTemplateText@4ebb13a1
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2038bf04 for object net.sf.jasperreports.engine.fill.JRTemplateText@f179d6c
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@5b44b7d5 for object net.sf.jasperreports.engine.fill.JRTemplateText@402a6ebf
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for object net.sf.jasperreports.engine.fill.JRTemplateText@41ef6d7e
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@599d256b for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@2038bf04 for object net.sf.jasperreports.engine.fill.JRTemplateText@27b79c2d
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@26cac2cd
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@26cac2cd for object net.sf.jasperreports.engine.fill.JRTemplateText@22a00726
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@26cac2cd for object net.sf.jasperreports.engine.fill.JRTemplateText@5d0063b4
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 388
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@1785cfaf
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@37ec0556
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@37ec0556 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8 for object net.sf.jasperreports.engine.fill.JRTemplateText@3bb40dbc
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8 for object net.sf.jasperreports.engine.fill.JRTemplateText@39a73fc3
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8 for object net.sf.jasperreports.engine.fill.JRTemplateText@772df458
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@53ad90f8 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 427
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:1052) - Fill 1: summary at 466
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@1c27a573
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@1c27a573 for object net.sf.jasperreports.engine.fill.JRTemplateText@52e5bffd
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@1c27a573 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:973) - Fill 1: ended
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1188) - Fill 1: closing query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:356) - Fill 1: created for null
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: BACKGROUND} for band 1780067062
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: TITLE} for band 2137300316
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: DETAIL} for band 1776905891
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillBand.java:154) - Origin {reportName: null, groupName: null,bandType: SUMMARY} for band 199690535
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:136) - Filler 1 - pageHeight: 842, columnFooterOffsetY: 822, lastPageColumnFooterOffsetY: 822
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:911) - Fill 1: filling report
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1107) - Fill 1: Creating sql query executer
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:254) - SQL query string: SELECT
+
+     facturacion.`cod_facturacion` AS facturacion_cod_facturacion,
+     facturacion.`cod_cliente` AS facturacion_cod_cliente,
+     facturacion.`cedcli` AS facturacion_cedcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`rnc` AS facturacion_rnc,
+     facturacion.`nomcli` AS facturacion_nomcli,
+     facturacion.`apcli` AS facturacion_apcli,
+     facturacion.`fecha` AS facturacion_fecha,
+     facturacion.`hora` AS facturacion_hora,
+     facturacion.`montotal` AS facturacion_montotal,
+     facturacion.`facturadopor` AS facturacion_facturadopor,
+     detalle_facturacion.`cod_credito` AS detalle_facturacion_cod_credito,
+     detalle_facturacion.`id_detalle` AS detalle_facturacion_id_detalle,
+     detalle_facturacion.`cod_producto` AS detalle_facturacion_cod_producto,
+     detalle_facturacion.`total_producto` AS detalle_facturacion_total_producto,
+     detalle_facturacion.`nombreprod` AS detalle_facturacion_nombreprod,
+     detalle_facturacion.`precio` AS detalle_facturacion_precio
+FROM
+     `facturacion` facturacion,
+     `detalle_facturacion` detalle_facturacion
+where facturacion.cod_facturacion = ? AND detalle_facturacion.id_detalle = ?
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #1 (ID of type java.lang.Integer): 76
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRJdbcQueryExecuter.java:396) - Parameter #2 (ID of type java.lang.Integer): 76
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:1857) - Fill 1: adding page 1
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:340) - Fill 1: title at 20
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateImage@8924e08
+2022-06-24 DEBUG [AWT-EventQueue-0] (SimpleTextLineWrapper.java:303) - creating element font infos cache of size 2000
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@62a986f6
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@3ddb59fa
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@13f6faf4
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@712531e
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@712531e for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@712531e for object net.sf.jasperreports.engine.fill.JRTemplateText@426e5b50
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@712531e for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@712531e for object net.sf.jasperreports.engine.fill.JRTemplateText@58ae56fe
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@712531e for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@554aa327
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@554aa327 for object net.sf.jasperreports.engine.fill.JRTemplateText@46f9126b
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@554aa327 for object net.sf.jasperreports.engine.fill.JRTemplateText@6556981e
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@712531e for object net.sf.jasperreports.engine.fill.JRTemplateText@5cca47b0
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@712531e for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@554aa327 for object net.sf.jasperreports.engine.fill.JRTemplateText@63460cb0
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@7964afb2
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@7964afb2 for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@554aa327 for object net.sf.jasperreports.engine.fill.JRTemplateText@44a8fe27
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@712531e for object net.sf.jasperreports.engine.fill.JRTemplateText@2ee14099
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@712531e for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@554aa327 for object net.sf.jasperreports.engine.fill.JRTemplateText@3b71289e
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@712531e for object net.sf.jasperreports.engine.fill.JRTemplateText@5adc936f
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@712531e for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@67310978
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@67310978 for object net.sf.jasperreports.engine.fill.JRTemplateText@75166741
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@67310978 for object net.sf.jasperreports.engine.fill.JRTemplateText@3b75fca7
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@67310978 for object net.sf.jasperreports.engine.fill.JRTemplateText@61034579
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@554aa327 for object net.sf.jasperreports.engine.fill.JRTemplateText@231dc2d6
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@712531e for object net.sf.jasperreports.engine.fill.JRTemplateText@37dd44b8
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@712531e for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@67310978 for object net.sf.jasperreports.engine.fill.JRTemplateText@3a085164
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@407e8398
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@407e8398 for object net.sf.jasperreports.engine.fill.JRTemplateText@616f600f
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@407e8398 for object net.sf.jasperreports.engine.fill.JRTemplateText@5b4acff1
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 388
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateRectangle@749545da
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@6a03178
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@6a03178 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa for object net.sf.jasperreports.engine.fill.JRTemplateText@2a9c0fd8
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa for object net.sf.jasperreports.engine.fill.JRTemplateText@1cd03b1a
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa for object net.sf.jasperreports.engine.fill.JRTemplateText@38e00094
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@4fb29faa for (null, {java.lang.Integer, null,null,null,null})
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:741) - Fill 1: detail at 427
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRVerticalFiller.java:1052) - Fill 1: summary at 466
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:85) - Added object net.sf.jasperreports.engine.fill.JRTemplateText@674e0644
+2022-06-24 DEBUG [AWT-EventQueue-0] (DeduplicableRegistry.java:92) - Found existing instance net.sf.jasperreports.engine.fill.JRTemplateText@674e0644 for object net.sf.jasperreports.engine.fill.JRTemplateText@4caa7657
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillTextField.java:438) - created net.sf.jasperreports.engine.fill.JRTemplateText@674e0644 for (null, null)
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRBaseFiller.java:973) - Fill 1: ended
+2022-06-24 DEBUG [AWT-EventQueue-0] (JRFillDataset.java:1188) - Fill 1: closing query executer
